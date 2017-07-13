@@ -11,6 +11,8 @@ services:
     environment:
      NODE_ENV: docker-development
      FORCE_SSL: "yes"
+     EXTERNAL_URL: $EXTERNAL_URL
+     ADMIN_PASSWORD: $ADMIN_PASSWORD
     env_file: ${ENV_FILE}
 
   mongodb:
