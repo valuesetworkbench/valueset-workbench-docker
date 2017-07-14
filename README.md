@@ -78,7 +78,7 @@ Admin username/password: admin/VIw9+mNh+KRs8KqCp^eftaqSD03Hop%N
 ```
 
 ### Custom OAuth2
-The Value Set Workbench allows integrates with your existing OAuth2 strategy. See [here for details](custom_oauth).
+The Value Set Workbench allows integrates with your existing OAuth2 strategy. See [the full install documentation](https://valuesetworkbench.github.io/custom_oauth/) for details.
 
 ### Custom Terms/Privacy Statements
 Customized Terms of Use and Privacy statements are may be added to align with different institutional policies. To substitute custom versions of these files, add either a ```terms.txt``` or ```privacy.txt``` (or both) to the ```valueset-workbench-docker/valueset-workbench/policy``` directory. These files may be in plain-text or [Markdown](https://daringfireball.net/projects/markdown/syntax) format.
